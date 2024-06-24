@@ -17,7 +17,10 @@ html{
 body{
     overflow-x: hidden;
 }
-
+.product img {  
+    height: 300px; /* 设置图片高度 */  
+    width: auto; /* 宽度自动调整以保持宽高比 */  
+}
 .heading, .clients .section-header h2, .section-head h1, .testimonials .section-header h2, .section-head-1 h4{
     margin: 2rem;
     padding-top: 6rem;
